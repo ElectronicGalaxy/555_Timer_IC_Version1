@@ -8,7 +8,7 @@ The 555 timer is an integrated circuit (IC) that has the ability to perform timi
  ### [555 Timer IC - Video Demonstration](https://drive.google.com/drive/my-drive)
 
 <h2>Circuit Description</h2>
-The electronic circuit illuminates the blue LED and turns off 
+The electronic circuit illuminates the blue LED and turns off the green LED, then turns off the blue LED and lights up the green LED.
 <br />
 <br />
 - <b>Calculate equa
