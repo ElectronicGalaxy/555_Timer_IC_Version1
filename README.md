@@ -7,7 +7,7 @@ The 555 timer is an integrated circuit (IC) that has the ability to perform timi
 The duty cycle is the percentage of time that the output is HIGH in a cycle. For example, if the duty cycle is 70%, that means the output goes HIGH for 70% of the entire cycle and the output goes low for 30% of the entire cycle.
 
 
- ### [555 Timer IC - Video Demonstration](https://drive.google.com/drive/my-drive)
+ ### [555 Timer IC - Video Demonstration](https://drive.google.com/file/d/1qtJKtbxpB-tIAMOESbsBYi-Mht5HvbB3/view?usp=sharing)
 
 <h2>Circuit Description</h2>
 The electronic circuit illuminates the blue LED and turns off the green LED, then turns off the blue LED and lights up the green LED. The frequency or the length of the period can be adjusted using the potentiometer which is more closely linked to R2 (adjusting the potentiometer has no affect on the resistance of R1).
