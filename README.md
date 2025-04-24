@@ -10,7 +10,7 @@ The duty cycle is the percentage of time that the output is HIGH in a cycle. For
  ### [555 Timer IC - Video Demonstration](https://drive.google.com/file/d/1qtJKtbxpB-tIAMOESbsBYi-Mht5HvbB3/view?usp=sharing)
 
 <h2>Circuit Description</h2>
-The electronic circuit illuminates the blue LED and turns off the green LED, then turns off the blue LED and lights up the green LED. The frequency or the length of the period can be adjusted using the potentiometer which is more closely linked to R2 (adjusting the potentiometer has no affect on the resistance of R1).
+The electronic circuit illuminates the blue LED and turns off the green LED, then turns off the blue LED and lights up the green LED. The frequency or the length of the period can be adjusted using the potentiometer which is more closely linked to R2 (adjusting the potentiometer has no affect on the resistance of R1). The reset pin of the 555 timer IC is connected to a button, when pressed will connect the reset pin to ground and hold the output to LOW. The reset pin is active-low, which means that the reset pin is only activated when the pin is connected to ground.
 <br />
 <br />
-
+The 
