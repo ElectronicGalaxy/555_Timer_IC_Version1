@@ -13,16 +13,27 @@ The duty cycle is the percentage of time that the output is HIGH in a cycle. For
 The electronic circuit powered by an adjustable DC power supply, illuminates the blue LED and turns off the green LED, then turns off the blue LED and lights up the green LED. The frequency or the length of the period can be adjusted using the potentiometer which is more closely linked to R2 (adjusting the potentiometer has no affect on the resistance of R1). The reset pin of the 555 timer IC is connected to a button, when pressed will connect the reset pin to ground and hold the output to LOW. The reset pin is active-low, which means that the reset pin is only activated when the pin is connected to ground.
 <br />
 <br />
-The length of the period is 455ms, where the output of 555 timer IC(the portion of the wave) is HIGH for 231ms and the output will go LOW for 224ms. These numbers are obtained when the potentiometer is set at its highest resistance (22k Ohms). The duty cycle of the output is 51%. These values are obtained when R5 (the potentiometer) is set to 22kOhms (the maximum resistance). However, when the resistance of the potentiometer is set to a negligible resistance, the period is 147ms and the duration of the output at HIGH and LOW voltages is 77ms and 70ms respectively. A noticable difference between the duration of each cycle for when the potentiometer is set to its lowest and highest value.
+The length of the period is 455ms, where the output of 555 timer IC (the portion of the wave) is HIGH for 231ms and the output will go LOW for 224ms. These numbers are obtained when the potentiometer is set at its highest resistance (22k Ohms). The duty cycle of the output is 51%. These values are obtained when R5 (the potentiometer) is set to 22kOhms (the maximum resistance). However, when the resistance of the potentiometer is set to a negligible resistance, the period is 147ms and the duration of the output at HIGH and LOW voltages is 77ms and 70ms respectively. A noticable difference between the duration of each cycle for when the potentiometer is set to its lowest and highest value.
 <br />
 <br />
 The formulae used for the calculations are:
-* T = 0.7 * (R1 + 2R2) * C1
+* T = 0.7 * (R3 + 2(R4 + R5)) * C2
 <br />
-* T_H = 0.7 * (R1 + R2) * C1
+* T_H = 0.7 * (R3 + (R4 + R5)) * C2
 <br />
-* T_L = 0.7 * R2 * C1
+* T_L = 0.7 * (R4 + R5) * C2
 <br />
 <br />
-Where T represents the period of the square function, T_H represents the length of time that the output goes HIGH and T_L represents the length of time the output goes LOW. R1 and R2 represent the resistors connected to pin 6 and 7 of IC.
+Where T represents the period of the square function, T_H represents the length of time that the output goes HIGH and T_L represents the length of time the output goes LOW. R1 and R2 represent the resistors connected to pin 6 and 7 of IC. C2 refers to the capacitance of the capacitor connected to R5.
+
+<h2>Circuit Schematic</h2>
+<p align="center">
+This is the circuit schematic which was created using draw.io. 
+<br />
+<br />
+<img src="https://imgur.com/xf15KaI.png" height="70%" width="70%" alt="Main Menu"/>
+<br />
+<br />
+<br /> 
+
 
