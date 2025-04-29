@@ -30,10 +30,17 @@ Where T represents the period of the square function, T_H represents the length 
 <p align="center">
 This is the circuit schematic which was created using draw.io. 
 <br />
-<br />
 <img src="https://imgur.com/xf15KaI.png" height="70%" width="70%" alt="Main Menu"/>
 <br />
 <br />
-<br /> 
+One thing to note is that in the schematic above, the wire that goes from TRG (pin 2) to the THR (pin 6) is also connected between the R5 and the capacitor.
+
+<h2>Square Wave from Oscilloscope</h2>
+<p align="center">
+This is a view of the square wave produced by the oscilloscope from the 555 timer IC. The duty cycle is slightly above 50%, which means that the amount of time the output goes HIGH is almost the same as the period of time the output goes LOW. The period of the square wave is 455ms. Although, if you were to measure the period using the oscilloscope, the period of the square wave is roughly 400ms, which is close to the number obtained from the formula T = 0.7 * (R3 + 2(R4 + R5)) * C2.
+<br />
+<img src="https://imgur.com/q2zRwlP.png" height="70%" width="70%" alt="Main Menu"/>
+<br />
+<br />
 
 
