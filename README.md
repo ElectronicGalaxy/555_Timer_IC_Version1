@@ -25,7 +25,7 @@ The formulae used for the calculations are:
 * T_L = 0.7 * (R4 + R5) * C2
 <br />
 <br />
-Where T represents the period of the square function, T_H represents the length of time that the output goes HIGH and T_L represents the length of time the output goes LOW. R1 and R2 represent the resistors connected to pin 6 and 7 of IC. C2 refers to the capacitance of the capacitor connected to R5.
+Where T represents the period of the square function, T_H represents the length of time that the output goes HIGH and T_L represents the length of time the output goes LOW. R3, R4 and R5 represent the resistors connected to pin 6 and 7 of IC. C2 refers to the capacitance of the capacitor connected to R5.
 
 <h2>Circuit Schematic</h2>
 <p align="center">
